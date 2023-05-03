@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/lighting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: black;
+    border-radius: 30px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 35px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #0effe7;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 35px;
+}
+
+.col{
+    margin-top: 150px;
+    flex-basis:100%;
+    text-align: center;
+}
+p{
+    color: #fff;
+    font-size: 13px;
+    line-height: 12px;
+}
+
+h4{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10PX;
+}
+.card{
+    width: 300px;
+    height: 330px;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card:hover{
+    transform: translateY(-40px);
+}
+.card1{
+    background-image: url("images/joga.jpg");
+}
+
+.card3{
+    background-image: url("images/shiva.jpg");
+}
+.card4{
+    background-image: url("images/Ettina-Bhuja-Trekking.jpg");
+}
